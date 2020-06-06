@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\matching">
+      <UniqueIdentifier>{c746ff79-92a5-4391-8883-24a9ac92e8d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\camera">
+      <UniqueIdentifier>{e8657375-5974-43ff-bdcc-97b081abbe1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sfm">
+      <UniqueIdentifier>{46792700-14ad-43d9-9669-9306b20f1d03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\math">
+      <UniqueIdentifier>{02a870ee-36ea-4c0b-a213-4f98026926ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\transform">
+      <UniqueIdentifier>{e8f81ac9-7ebf-4222-947f-a15cd2228307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\keypoint">
+      <UniqueIdentifier>{643b328c-c869-484d-8843-0e8151f653ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\matching">
+      <UniqueIdentifier>{6c3ab5cb-a385-4d4b-ac99-8541ba6dcdeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\camera">
+      <UniqueIdentifier>{912db1ea-1479-430a-a3a5-8a98f348be76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\math">
+      <UniqueIdentifier>{e7fdcb82-aa70-4ee2-b49f-19ca968bb96c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\keypoint">
+      <UniqueIdentifier>{1276771e-d162-4dc3-8b87-753638c4b2c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\transform">
+      <UniqueIdentifier>{efd24b74-d3fd-4ea7-88f7-37c45f31cfd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sfm">
+      <UniqueIdentifier>{d780056b-9066-4cce-b65f-a1e2884b03b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\image">
+      <UniqueIdentifier>{21b56141-c7c7-4a85-bfcd-539efd207fb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\image">
+      <UniqueIdentifier>{58a9b798-449e-4098-b2ec-21ed21b319e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\robust_estimator">
+      <UniqueIdentifier>{39d62845-650f-46d7-9c0c-9f7894e93d9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\robust_estimator">
+      <UniqueIdentifier>{ffc730c8-904c-47fb-ae33-b4935674c145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\estimator">
+      <UniqueIdentifier>{1ee8c885-c9ce-4cae-8931-69d19335dba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\estimator">
+      <UniqueIdentifier>{40a76eb1-3a72-4ed9-a9e0-bb08b9a8580d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RpolyPlusPlus">
+      <UniqueIdentifier>{4d2ffdc9-1d10-45b1-a2ed-3958c47bb094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RpolyPlusPlus">
+      <UniqueIdentifier>{2e45e153-34d8-49e8-9ba1-e17e192e3cfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils">
+      <UniqueIdentifier>{d03a4fca-d9f9-4f5b-a61e-57062d689d0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{ba3b3182-782d-4d4e-9d19-c364e2c74bcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\triangulation">
+      <UniqueIdentifier>{9b2120dc-1ea5-4b38-bfdd-fa320da3a24f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\triangulation">
+      <UniqueIdentifier>{3e44ca6c-c94e-4661-8d6c-015a27a20dd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\optim">
+      <UniqueIdentifier>{0568efc8-bf6a-49a7-a92b-ba3be612fda9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\optim">
+      <UniqueIdentifier>{a37a6f67-f4c2-4a80-a2f5-5d0ec780ccf4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="3DReconstruct.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\matcher_flann.cc">
+      <Filter>Source Files\matching</Filter>
+    </ClCompile>
+    <ClCompile Include="src\matcher_brute_force.cc">
+      <Filter>Source Files\matching</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pair.cc">
+      <Filter>Source Files\matching</Filter>
+    </ClCompile>
+    <ClCompile Include="src\camera.cc">
+      <Filter>Source Files\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pinhole_camera.cc">
+      <Filter>Source Files\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\numeric.cc">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\keypoint.cc">
+      <Filter>Source Files\keypoint</Filter>
+    </ClCompile>
+    <ClCompile Include="src\projection.cc">
+      <Filter>Source Files\transform</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rodrigues.cc">
+      <Filter>Source Files\transform</Filter>
+    </ClCompile>
+    <ClCompile Include="src\transform.cc">
+      <Filter>Source Files\transform</Filter>
+    </ClCompile>
+    <ClCompile Include="src\track.cc">
+      <Filter>Source Files\sfm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\structure_point.cc">
+      <Filter>Source Files\sfm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\image.cc">
+      <Filter>Source Files\image</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sift.cc">
+      <Filter>Source Files\keypoint</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sift_param.cc">
+      <Filter>Source Files\keypoint</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ransac.cc">
+      <Filter>Source Files\robust_estimator</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fundamental.cc">
+      <Filter>Source Files\estimator</Filter>
+    </ClCompile>
+    <ClCompile Include="src\polynomial.cc">
+      <Filter>Source Files\RpolyPlusPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\find_polynomial_roots_jenkins_traub.cc">
+      <Filter>Source Files\RpolyPlusPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\est_Rt_from_E.cc">
+      <Filter>Source Files\estimator</Filter>
+    </ClCompile>
+    <ClCompile Include="src\triangulation.cc">
+      <Filter>Source Files\triangulation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graph.cc">
+      <Filter>Source Files\sfm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\quaternion.cc">
+      <Filter>Source Files\transform</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gradientdescent.cpp">
+      <Filter>Source Files\optim</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\dmatch.h">
+      <Filter>Header Files\matching</Filter>
+    </ClInclude>
+    <ClInclude Include="src\matcher.h">
+      <Filter>Header Files\matching</Filter>
+    </ClInclude>
+    <ClInclude Include="src\distance.h">
+      <Filter>Header Files\matching</Filter>
+    </ClInclude>
+    <ClInclude Include="src\matcher_brute_force.h">
+      <Filter>Header Files\matching</Filter>
+    </ClInclude>
+    <ClInclude Include="src\matcher_flann.h">
+      <Filter>Header Files\matching</Filter>
+    </ClInclude>
+    <ClInclude Include="src\matcher_param.h">
+      <Filter>Header Files\matching</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pair.h">
+      <Filter>Header Files\matching</Filter>
+    </ClInclude>
+    <ClInclude Include="src\camera.h">
+      <Filter>Header Files\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pinhole_camera.h">
+      <Filter>Header Files\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\track.h">
+      <Filter>Header Files\sfm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\structure_point.h">
+      <Filter>Header Files\sfm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\numeric.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\transform.h">
+      <Filter>Header Files\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rodrigues.h">
+      <Filter>Header Files\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="src\projection.h">
+      <Filter>Header Files\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="src\keypoint.h">
+      <Filter>Header Files\keypoint</Filter>
+    </ClInclude>
+    <ClInclude Include="src\descriptor.h">
+      <Filter>Header Files\keypoint</Filter>
+    </ClInclude>
+    <ClInclude Include="src\image.h">
+      <Filter>Header Files\image</Filter>
+    </ClInclude>
+    <ClInclude Include="src\detector.h">
+      <Filter>Header Files\keypoint</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sift.h">
+      <Filter>Header Files\keypoint</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sift_param.h">
+      <Filter>Header Files\keypoint</Filter>
+    </ClInclude>
+    <ClInclude Include="src\param_estimator.h">
+      <Filter>Header Files\robust_estimator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ransac.h">
+      <Filter>Header Files\robust_estimator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fundamental.h">
+      <Filter>Header Files\estimator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils.h">
+      <Filter>Header Files\estimator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\polynomial.h">
+      <Filter>Header Files\RpolyPlusPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\find_polynomial_roots_jenkins_traub.h">
+      <Filter>Header Files\RpolyPlusPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\est_Rt_from_E.h">
+      <Filter>Header Files\estimator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sort_index.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\KDTreeVectorOfVectorAdaptor.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\triangulation.h">
+      <Filter>Header Files\triangulation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graph.h">
+      <Filter>Header Files\sfm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\quaternion.h">
+      <Filter>Header Files\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gradientdescent.h">
+      <Filter>Header Files\optim</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
